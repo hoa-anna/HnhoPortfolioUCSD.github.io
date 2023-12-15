@@ -1,4 +1,3 @@
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -6,49 +5,138 @@ h1 {
     line-height: 1.5;
     color: #d79999;
 
-
 }
-h2 {
-    color: #851c1c;
+
+.pricing-header {
+    /* color: #851c1c; */
     font-family: 'Monterrat';
     font-size: 1.5;
     font-weight: bold;
+    color: black;
+    left: 50%;
+    margin-left: 75px;
+    margin-top: 20px;
 }
+
+h2 {                            /* block 3 */
+    font-family: 'Monterrat';
+    font-size: 1.5rem;
+    font-weight:normal;
+    color: black;
+    left: 50%;
+    margin-left: 0;
+}
+
+.quality-header {
+    font-family: 'Monterrat';
+    font-size: 1.5;
+    font-weight: bold;
+    color: black;
+    left: 50%;
+    margin-left: 0;
+    text-align: center;
+}
+
 h3 {
     font-family: 'Montserrat';
     font-weight: bold;
-
 }
-#title {
-    background-color: lightblue;
+
+#name {
+    font-size: 100px;
+}
+#title {                            /* menu bar aka ucsd logo*/
+    background-color: #182B49;
+    color: white;
 }
 .container-fluid {
     padding: 3% 15%;
 }
 
-p{
+.short-description{
     color: #8f8f8f;
+    padding-left: 40px;
 }
 
+p{
+    color: black;
+    font-size: 20px;
+}
+
+.adj {
+    font-size: 1.5rem;
+}
+/* .col-lg-6 {
+    padding-left: 10px;
+} */
 
 /* navigation bar */
-.navbar {
+/* .navbar {
+    display: inline-block;
     padding: 0 0 4.5rem;
-}
-.nav-brand {
+} */
+
+.navbar-light .navbar-brand {
     font-family: 'Ubuntu';
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-right: 1rem;
 }
 
 .nav-item {
     padding: 0 18px;
+    color: white;
 
 }
+.header {
+    display: inline-block;
+}
 
+.navbar-nav-ml-auto {
+    color: white;
+    margin-left: 25rem;
+}
+
+.image {
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 20rem;
+}
+
+/* .row {
+    display: block;
+} */
+
+.col-lg-6 {
+    display: flex;
+    padding-top: 40px;
+    flex: 0 0 50%;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+#intro {
+    font-size: 25px;
+    padding-left: 107px;
+}
+
+.row2 {
+    display: flex;
+}
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+    color: white;
+    display: inline-block;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
 }
 
 /* Download buttons */
@@ -58,59 +146,61 @@ p{
 
 /*Title images */
 .title-image {
-    width: 60;
-    transform: rotate(20deg);
-    z-index: 2;                                /* help image hide under the text banner */
-    position: absolute;                         /* help image hide under the text banner */
+    width: 373px;
+    height: auto;
+    /* z-index: 2;                                /* help image hide under the text banner */
+    /* position: absolute;                        /* help image hide under the text banner */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 2;                              /* help image hide under the text banner */
+    border-radius: 25px;
 }
 
 
-/* Features Section */
-#features {
+/* About Section */
+/* #about {
     padding: 7% 15%;
-    background-color: blanchedalmond;         
-  /* help image hide under the text banner */
-    z-index: 3;
+    background-color: white;         
+    /* help image hide under the text banner */
+    /* z-index: 3;
     position: relative;
-}
+} */
 
-.feature-box {
+/* .about-box {
     text-align: center;
     padding: 5%;
-}
+} */ 
 
 .icon{
     color: orange;
     margin-bottom: 1rem;
+    /* text-align: center; */
 }
 
 .icon:hover{
     color: aqua;
 }
 
-/* Testimonial section */
+/* Testimonial section, activities slideshow */
 #testimonials {
     padding: 7% 15%;
-   
     text-align: center;
-    background-color: #00bcd4; /* color hunt */
+    background-color: lightblue;        /* color hunt */
 }
 
-.testimonial-image {
-    width: 30%;
-    border-radius: 50%;
+.testimonials-images {                  /* images slide show */
+    width: auto;
+    /* border-radius: 50%; */
     margin: 20px;
+    height: 200px;
 }
 
 
 #press{
-    background-color: #00bcd4;
-   
+    background-color: lightblue;
     text-align: center;
     size: 90;
-   
-  
- 
 
 }
 
@@ -119,36 +209,32 @@ p{
     margin: 20px 20px 50px;
 }
 
-.carousel-item {
-    height: 500px;
-}
-
-/* Pricing Section */
-#pricing {
+/* Experiences Section */
+#experiences {
     color: black;
     padding: 100px;
     text-align: center;
 }
 
-.pricing-header {
-    color: black;
+.experiences-header {
+    color: white;
 }
 
-.pricing-column {
-    color: black;
+.experiences-column {
+    color: white;
     padding: 3% 3%;
 }
-h2 {
-    color: black;
-    font-family: 'Monterrat';
-    font-size: 1.5;
-    font-weight: bold;
+
+.col-lg-4 {                     /* the 3 orange icon checkpoints */
+    padding-left: 30px;
+    padding-right: 50px;
+    text-align: center;
 }
 
-/* Call To Action, CTA */
+/* Contacting sources CTA */
 
-#cta {
-    background-color: aqua;
+#contacts {
+    background-color: lightblue;
     color: white;
     padding: 7% 15%;
     text-align: center;
@@ -156,20 +242,22 @@ h2 {
 
 }
 
-.cta-heading {
+.cta-heading {                              /* the closing line */
     font-family: 'Montserra';
     font-weight: bold;
     font-size: 3.5 rem;
     line-height: 1.5;
+    margin-left: 75px;
+    padding-top: 50px;
+    text-align: center;
 }
 
 /* Footer Heading */
-#footer {
-    padding: 7% 15%;
-    color:red;
-    margin: 50px 280px;  
-    width:  60;
-    /*text-align: center; */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    font-size: 4rem;
 }
 
 .social-icon {
@@ -179,19 +267,25 @@ h2 {
 /* Media Query Section */
 @media (max-width: 1028px) {
 
-    #title {
+#title {
         text-align: center;                 /* use for image and text in the center when window getting smaller */
     }
 .title-image {
     position: static;                       /* use for image become static when window getting smaller */
     transform: rotate(0);                   /* use for image become straight up when window getting smaller */
 }
+
 }
-.image1 {
-    border-radius: 80%;
-    height: 105px;
+.image1 {                                   /* images slideshow */
+    padding-top: 15px;
+    /* border-radius: 50%; */
+    /* height: 105px; */
 }
 
-#hinh {
-    background-color: palevioletred;
+.containter {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
 }
